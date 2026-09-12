@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 1em sans-serif;
+    background-color: rgb(226, 226, 226);
+}
+.box{
+    height: fit-content;
+    width: 50vmin;
+    display: block;
+    margin: auto;
+    border: 0px ;
+    background-color: #bfd0a8;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 15px gray;
+
+    }
+.main{
+    height: 20vh;
+    width: 20vmin;
+    display: block;
+    margin: auto;
+    border-radius: 100px;
+}
+h1{
+    font-size: 2vw;
+}
+h2{
+    font-size: 1vw;
+    color: rgb(117, 111, 111);
+}
+
+p{
+    font-size: 0.9vw;
+    color: rgb(90, 90, 90);
+}
+.skills{
+    display: flex;
+    gap: 5vmin;
+}
+h3{
+    text-align: left;
+    font-size: 1.6vw;
+    padding: 2vmin;
+}
+.image{
+    padding: 1vmin;
+    height: 3vmin;
+}
+.div{
+    background-color: white;
+    height: 4vmin;
+    width: 30vmin;
+    margin: 2px;
+    display: flex;
+    gap: 1vmin;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+.div h1{
+    font-size: 1.4vmin;
+}
+.contact{
+    margin: 5vmin;
+    text-align: center;
+
+}
+.btn{
+    background-color: blue;
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    height: fit-content;
+    width: fit-content;
+    font-size: 2.7vmin;
+}
+footer img{
+    height: 2.5vmin;
+}
+footer{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 1vmin;
+}
